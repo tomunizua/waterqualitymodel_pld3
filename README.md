@@ -35,7 +35,7 @@ my model is the best as compared to the other models with an accuracy of 0.628 b
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - Iradukunda Ruth <h3><br>
 
 
-<h4>RUTH's Summary TABLE</h4>-<br>
+<h4>RUTH's Summary TABLE</h4><br>
 
 | Train Instance | Engineer Name   | Regulariez | Optimizer | Early stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
 |----------------|-----------------|------------|-----------|----------------|--------------|----------|----------|--------|-----------|
