@@ -1,4 +1,6 @@
 <h1>WATER QUALITY MODEL</h1><br>
+Video presentation link: https://drive.google.com/file/d/1V1xUEtox9gtkBKxWjGoDKRNteA4Xhflv/view?usp=sharing <br>
+
 <h2>Introduction</h2><br>
 
 This repository contains a machine learning model designed to predict the potability of water based on various quality parameters. The model utilizes a combination of data preprocessing techniques, neural network architecture, and performance evaluation metrics to ensure accurate and reliable predictions. Three(3) different optimizers were used in buildiing 3 different models to analyze the accuracy that will be gotten from each model.
