@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability?select=w
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - BERNICE AWINPANG AKUDBILLA</h3><br>
     
-This model consists of four hidden layers with 64, 32, 16, and 8 neurons, all using ReLU activation and L2 regularization (l2(0.0001)) to prevent overfitting by discouraging large weights. A dropout rate of 30% is applied after the first two hidden layers to reduce overfitting by randomly deactivating neurons during training, ensuring better generalization. The optimizer chosen is Stochastic Gradient Descent (SGD) with gradient clipping (clipnorm=1.0), which helps stabilize training and prevent exploding gradients, while early stopping monitors validation loss and halts training if it stops improving for 10 consecutive epochs
+This model consists of four hidden layers with 64, 32, 16, and 8 neurons, all using ReLU activation and L2 regularization (l2(0.0001)) to prevent overfitting by discouraging large weights. A dropout rate of 30% is applied after the first two hidden layers to reduce overfitting by randomly deactivating neurons during training, ensuring better generalization. The optimizer I used was Stochastic Gradient Descent (SGD) with gradient clipping (clipnorm=1.0), which helps stabilize training and prevent exploding gradients, while early stopping monitors validation loss and halts training if it stops improving for 10 consecutive epochs
 
 <h4>Bernice's Summary table</h4><br>
 
@@ -21,10 +21,10 @@ This model consists of four hidden layers with 64, 32, 16, and 8 neurons, all us
 <br>
 
 <h4>RESULTS AND ANALYSIS</h4><br>
-my model is the best as compared to the other models with an accuracy of 0.628 because of the use of SGD with gradient clipping( clipnorm=1.0) which helped stabilizing the training and prevented drastic weight updates, allowing for better generalization compared to RMSprop and Adam, which probably have over-learned the training data. Additionally, my model effectively captured patterns in both classes, as seen in its recall and precision scores(0.92,0.14),(0.64,0.54) respectively. Although my model performed porely in predicting class 1,it did relatively better as compared to the other models which failed to learn meaningful representations, it is most likely due to ineffective weight updates or poor adaptation to class imbalances.
+my model is the best as compared to the other models with an accuracy of 0.628 because of the use of SGD with gradient clipping( clipnorm=1.0) which helped stabilizing the training and prevented drastic weight updates, allowing for better generalization compared to RMSprop and Adam, which probably have over-learned the training data. Additionally, my model effectively captured patterns in both classes, as seen in its recall and precision scores(0.92,0.14),(0.64,0.54) respectively. Although my model performed porely in predicting class 1,it did relatively better as compared to the other models thast is; Theodora and Ruth's  models which failed to learn meaningful representations, it is most likely due to ineffective weight updates or poor adaptation to class imbalances.
 <br>
 
-<h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - Theodora Omunizua</h3>><br>
+<h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - Theodora Omunizua</h3><br>
     
 Insights from Experiments/Challenges: I ended up with zero values for F1 score, precision and recall so I tried fixing this by changing the neural network structure, increasing+reducing the learning and dropout rates, but then realized the problem was class imbalance, my model was not predicting any positives.
 Parameter Choices: Learning rate of 0.001 to avoid overshooting, Dropout rate of 0.3 to prevent overfitting, and Early Stopping patience of 10 epochs to monitor validation loss and to stop training when the line flattens
