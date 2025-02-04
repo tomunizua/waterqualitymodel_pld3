@@ -2,7 +2,7 @@
 
 <h2>Introduction</h2><br>
 
-Below are the individual architectures used in training the three model and results and insights drawn from each architecture.
+This repository contains a machine learning model designed to predict the potability of water based on various quality parameters. The model utilizes a combination of data preprocessing techniques, neural network architecture, and performance evaluation metrics to ensure accurate and reliable predictions.
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS<h3><br>
 
