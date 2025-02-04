@@ -26,8 +26,9 @@ my model is the best as compared to the other models with an accuracy of 0.628 b
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - Theodora Omunizua</h3><br>
     
+My model consists of three hidden layers with 64, 32, and 16 neurons, all using ReLU activation and L2 regularization (l2(0.0001)) to prevent overfitting by discouraging large weights. Learning rate of 0.001 to avoid overshooting, Dropout rate of 0.3 after every hidden layer to prevent overfitting, and Early Stopping patience of 10 epochs to monitor validation loss and to stop training when the line flattens.
 Insights from Experiments/Challenges: I ended up with zero values for F1 score, precision and recall so I tried fixing this by changing the neural network structure, increasing+reducing the learning and dropout rates, but then realized the problem was class imbalance, my model was not predicting any positives.
-Parameter Choices: Learning rate of 0.001 to avoid overshooting, Dropout rate of 0.3 to prevent overfitting, and Early Stopping patience of 10 epochs to monitor validation loss and to stop training when the line flattens
+
 <h4>THEODORA's Summary table</h4><br>
     
 | Train Instance | Engineer Name     | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy   | F1 Score | Recall | Precision |
