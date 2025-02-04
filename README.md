@@ -1,7 +1,12 @@
 <h1>WATER QUALITY MODEL</h1><br>
 <h2>Introduction</h2><br>
 
-This repository contains a machine learning model designed to predict the potability of water based on various quality parameters. The model utilizes a combination of data preprocessing techniques, neural network architecture, and performance evaluation metrics to ensure accurate and reliable predictions.
+This repository contains a machine learning model designed to predict the potability of water based on various quality parameters. The model utilizes a combination of data preprocessing techniques, neural network architecture, and performance evaluation metrics to ensure accurate and reliable predictions. Three(3) different optimizers were used in buildiing 3 different models to analyze the accuracy that will be gotten from each model.
+
+<h3>DATASET</h3>
+This dataset contains water quality measurements and assessments related to potability, which is the suitability of water for human consumption. The dataset's primary objective is to provide insights into water quality parameters and assist in determining whether the water is potable or not. Each row in the dataset represents a water sample with specific attributes, and the "Potability" column indicates whether the water is suitable for consumption.
+
+https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability?select=water_potability.csv
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - BERNICE AWINPANG AKUDBILLA</h3><br>
     
