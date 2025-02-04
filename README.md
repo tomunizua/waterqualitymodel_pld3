@@ -36,9 +36,9 @@ This repository contains a machine learning model designed to predict the potabi
   
 <h4>RUTH's Summary TABLE</h4><br>
 
-| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 | Col 9 | Col 10 |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|
-| Data1 | Data2 | Data3 | Data4 | Data5 | Data6 | Data7 | Data8 | Data9 | Data10 |
+| Train Instance | Engineer Name   | Regulariez | Optimizer | Early stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
+|----------------|-----------------|------------|-----------|----------------|--------------|----------|----------|--------|-----------|
+| Model 3        | Iradukunda Ruth | L2         | RMSprop   | Yes            | 0.3          | 0.6      | 0.0      | 0.0    | 0.0       |
 
 <h4>RESULTS AND ANALYSIS</h4>
 
