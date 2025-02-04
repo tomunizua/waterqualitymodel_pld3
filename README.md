@@ -5,7 +5,7 @@ This repository contains a machine learning model designed to predict the potabi
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS<h3><br>
     
-<p>my model consists of four hidden layers with 64, 32, 16, and 8 neurons, all using ReLU activation and L2 regularization (l2(0.0001)) to prevent overfitting by discouraging large weights. A dropout rate of 30% is applied after the first two hidden layers to reduce overfitting by randomly deactivating neurons during training, ensuring better generalization. The optimizer chosen is Stochastic Gradient Descent (SGD) with gradient clipping (clipnorm=1.0), which helps stabilize training and prevent exploding gradients, while early stopping monitors validation loss and halts training if it stops improving for 10 consecutive epochs.</p>
+This model consists of four hidden layers with 64, 32, 16, and 8 neurons, all using ReLU activation and L2 regularization (l2(0.0001)) to prevent overfitting by discouraging large weights. A dropout rate of 30% is applied after the first two hidden layers to reduce overfitting by randomly deactivating neurons during training, ensuring better generalization. The optimizer chosen is Stochastic Gradient Descent (SGD) with gradient clipping (clipnorm=1.0), which helps stabilize training and prevent exploding gradients, while early stopping monitors validation loss and halts training if it stops improving for 10 consecutive epochs
 
 <h4>Bernice's Summary table</h4><br>
 
