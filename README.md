@@ -27,14 +27,15 @@ my model is the best as compared to the other models with an accuracy of 0.628 b
     
 <h4>THEODORA's Summary table</h4><br>
     
-| Train Instance | Engineer Name     | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
-|----------------|-------------------|-------------|-----------|----------------|--------------|----------|----------|--------|-----------|
-| Model 2        | Theodora Omunizua | L2          | Adam      | Yes            | 0.3          | 0.6      | 0.0      | 0.0    | 0.0       |
+| Train Instance | Engineer Name     | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy   | F1 Score | Recall | Precision |
+|----------------|-------------------|-------------|-----------|----------------|--------------|------------|----------|--------|-----------|
+| Model 2        | Theodora Omunizua | L2          | Adam      | Yes            | 0.3          | 0.624      | 0.0      | 0.0    | 0.0       |
 
 <br>
-
 <h4>RESULTS AND ANALYSIS</h4>
-
+While the accuracy scores of all three models are similar, Bernice's model shows better performance through its non-zero values for F1 scores, recall and precision as compared to the other two models. Ruth and I's models have an F1 score, recall, and precision of 0.0, indicating no positive predictions were made. This shows that the models struggled with class imbalance, resulting in poor predictions (zero values) for the minority class. Adjusting class weights and exploring different regularization techniques could improve performance.
+Also, Bernice's model uses SGD for optimization, which might have provided better generalization on the dataset compared to the Adam optimizer I used, and RMSprop optimizers Ruth used. SGD can sometimes offer advantages in sparse or noisy data settings.
+<br>
   
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - Iradukunda Ruth <h3><br>
     
