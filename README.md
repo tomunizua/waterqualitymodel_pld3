@@ -7,9 +7,9 @@ This repository contains a machine learning model designed to predict the potabi
 
 <h4>Bernice's Summary table</h4><br>
 
-| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 | Col 9 | Col 10 |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|
-| Data1 | Data2 | Data3 | Data4 | Data5 | Data6 | Data7 | Data8 | Data9 | Data10 |
+| Train Instance | Engineer Name     | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score        | Recall         | Precision      |
+|----------------|-------------------|-------------|-----------|----------------|--------------|----------|-----------------|----------------|----------------|
+| Model 1        | Bernice  Akudbilla | L2          | SGD      | Yes            | 0.3          | 0.628    | 0- 0.76, 1- 0.22| 0- 0.92, 1-0.14| 0- 0.64, 1-0.54|
     
 <br>
 
