@@ -16,7 +16,7 @@ This model consists of four hidden layers with 64, 32, 16, and 8 neurons, all us
 <br>
 
 <h4>RESULTS AND ANALYSIS</h4><br>
-my model performed better because the use of SGD with gradient clipping( clipnorm=1.0) which helped stabilizing the training and prevented drastic weight updates, allowing for better generalization compared to RMSprop and Adam, which probably have over-learned the training data. Additionally, my model effectively captured patterns in both classes, as seen in its recall and precision scores(0.92,0.14),(0.64,0.54) respectively. Although my model performed porely in predicting class 1,it did relatively better as compared to the other models which failed to learn meaningful representations, it is most likely due to ineffective weight updates or poor adaptation to class imbalances.
+my model is the best as compared to the other models with an accuracy of 0.628 because of the use of SGD with gradient clipping( clipnorm=1.0) which helped stabilizing the training and prevented drastic weight updates, allowing for better generalization compared to RMSprop and Adam, which probably have over-learned the training data. Additionally, my model effectively captured patterns in both classes, as seen in its recall and precision scores(0.92,0.14),(0.64,0.54) respectively. Although my model performed porely in predicting class 1,it did relatively better as compared to the other models which failed to learn meaningful representations, it is most likely due to ineffective weight updates or poor adaptation to class imbalances.
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS<h3><br>
 
