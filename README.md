@@ -25,6 +25,7 @@ my model is the best as compared to the other models with an accuracy of 0.628 b
 <br>
 
 <h3>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS - Theodora Omunizua<h3><br>
+    
 Insights from Experiments/Challenges: I ended up with zero values for F1 score, precision and recall so I tried fixing this by changing the neural network structure, increasing+reducing the learning and dropout rates, but then realized the problem was class imbalance, my model was not predicting any positives.
 Parameter Choices: Learning rate of 0.001 to avoid overshooting, Dropout rate of 0.3 to prevent overfitting, and Early Stopping patience of 10 epochs to monitor validation loss and to stop training when the line flattens
 <h4>THEODORA's Summary table</h4><br>
