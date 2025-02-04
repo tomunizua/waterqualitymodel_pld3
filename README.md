@@ -21,10 +21,10 @@ This repository contains a machine learning model designed to predict the potabi
   
 <h4>THEODORA's Summary table</h4><br>
     
-**| Train Instance | Engineer Name | 	
-Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |**
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|
-| Model 2 | Theodora Omunizua | L2 | Yes | 0.3 | 0.6 | 0.0 | 0.0 | 0.0 | 0.0 |
+| Train Instance | Engineer Name     | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
+|----------------|-------------------|-------------|-----------|----------------|--------------|----------|----------|--------|-----------|
+| Model 2        | Theodora Omunizua | L2          | Adam      | Yes            | 0.3          | 0.6      | 0.0      | 0.0    | 0.0       |
+
 <br>
 
 <h4>RESULTS AND ANALYSIS</h4>
