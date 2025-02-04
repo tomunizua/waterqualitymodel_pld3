@@ -6,10 +6,14 @@ Below are the individual architectures used in training the three model and resu
 
 <h1>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS<h1><br>
 
-<h2>Bernice's Summary table</h2>
+<h2>Bernice's Summary table</h2><br>
+
+    ```
 | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 | Col 9 | Col 10 |
 |-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|
 | Data1 | Data2 | Data3 | Data4 | Data5 | Data6 | Data7 | Data8 | Data9 | Data10 |
+
+     ```
 <br>
 
 <h1>MODEL ARCHITECTURE DESCRIPTION AND EXPLANATION OF OUTPUTS<h1>
