@@ -23,6 +23,10 @@ This model consists of four hidden layers with 64, 32, 16, and 8 neurons, all us
 <br>
 
 <h4>RESULTS AND ANALYSIS</h4><br>
+My accuracy value of 0.628 shows the model was able to classify correctly 62.8% of the total 492 instances.
+Precision values were 0.5200 for class 1 and 0.64 for class 0 ; this implies that when the model predicts class 1; it is correct 52% of the time and for class 0; it was right 64% of the time.
+Recall values are 0.1405 for class 1 and 0.92 for class 0. A recall of 0.1405 for class 1 implies the model identifies only 14% of the actual class 1 cases missing 86%.In a confusion matrix, we would say, the false negatives for class 1 is very high. As for class 0, a recall of 0.92 means the model correctly identifies  class 0 instances 92% of the time. In a confusion matrix , it would imply the false negatives for class 0 was very low.
+The F1 score for class 1 is 0.2213; this implies the model struggles to classify class 1 properly. This shows the model has poor prediction for class 0. IN class 0, I recorded an F1 score of 0.76 ; this shows the class 0 is well classified as compared to class 1.
 my model is the best as compared to the other models with an accuracy of 0.628 because of the use of SGD with gradient clipping( clipnorm=1.0) which helped stabilizing the training and prevented drastic weight updates, allowing for better generalization compared to RMSprop and Adam, which probably have over-learned the training data. Additionally, my model effectively captured patterns in both classes, as seen in its recall and precision scores(0.92,0.14),(0.64,0.54) respectively. Although my model performed porely in predicting class 1,it did relatively better as compared to the other models thast is; Theodora and Ruth's  models which failed to learn meaningful representations, it is most likely due to ineffective weight updates or poor adaptation to class imbalances.
 <br>
 
